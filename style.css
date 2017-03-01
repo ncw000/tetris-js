@@ -1,0 +1,22 @@
+html {
+}
+
+body {
+    
+    /*background: gray;*/
+    overflow: hidden;
+    
+}
+
+.root {
+    display: flex;
+    margin-right: auto; margin-left: auto; 
+    /*background: blue;*/
+    justify-content: center;
+}
+
+#gameCanvas {
+    /*width: 400px !important;
+    height: 800px !important;*/
+    background: black;
+}
