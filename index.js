@@ -319,7 +319,7 @@ function SquareFixedAt(x, y) {
 
 /* Unfix a square at a given coordinate */
 function UnfixSquareAt(x, y) {
-    _collisionRows[y] = _collisionRows[y] & (1 << x);
+    _collisionRows[y] = _collisionRows[y] & (0 << x);
 }
 
 /* Create a new Tetrix piece to be controlled by the player */
